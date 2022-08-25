@@ -49,6 +49,9 @@ background-color: #F35B04;
     color:#F35B04;
     margin-top: 30px;
 }
+.section1 button:hover{
+    background-color: #449B5A;
+}
 .section2{
     width: 100%;
     display: flex;
@@ -56,15 +59,103 @@ background-color: #F35B04;
     align-items: center;
     
     background-color: #F35B04;
-    margin-top: 10px;
+    
 
 }
-.titulo{
-    justify-content: center;
-    display: flex;
+div.background {
+    background-color: #F35B04;
+    border: 2px solid #F35B04;
 }
-.titulo p{
-    width: 50%;
-    justify-content: center;
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px solid rgb(26, 141, 74);
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+.section3{
     display: flex;
+    justify-content: space-around;
+    background-color: #F35B04;
+}
+
+.section3 img{
+    width: 100%;
+
+}
+.tarjeta{
+    width: 200px;
+    border: solid rgb(26, 141, 74) 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.texto{
+    padding: 12px;
+
+}
+.contact{
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background: linear-gradient(60deg,#F35B04,rgb(26, 141, 74));
+    border-radius: 10px;
+    color: #000000;
+    clip-path: circle(23.2% at 100% 0);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    top: 20px;
+}
+.contact h1{
+    margin: 30px 0;
+    color: #000000;
+    font-weight: bold;
+
+}
+.contact p{
+    font-weight: bold;
+    line-height: 150%;
+}
+.contact li{
+    margin: 20px 0;
+    color: #000000;
+}
+.contact:hover{
+    clip-path: circle(141.4% at 100% 0);
+}
+.imagen{
+    width: 300px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F35B04;
+
+}
+.section4 img{
+    border: 10px solid  rgb(26, 141, 74);
+    border-radius: 5px;
+}
+.fa-brands fa-instagram{
+    position: relative;
+    
+}
+body{
+    background-color: #F35B04;
 }
